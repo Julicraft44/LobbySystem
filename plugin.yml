@@ -3,6 +3,7 @@ main: Julicraft_44\LobbySystem\Main
 version: 1.0.0
 api: 3.0.0
 author: Julicraft_44
+depend: [EconomyAPI]
 
 commands:
     day:
