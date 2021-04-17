@@ -1,0 +1,52 @@
+name: LobbySystem
+main: Julicraft_44\LobbySystem\Main
+version: 1.0.0
+api: 3.0.0
+author: Julicraft_44
+
+commands:
+    day:
+        description: Make it day in your world
+        permission: ls.day
+        usage: /day
+    night:
+        description: Make it night in your world
+        permission: ls.night
+        usage: /night
+    getlobbyinv:
+        description: Get the normal lobby inventory
+        permission: ls.getlobbyinv
+        usage: /getlobbyinv
+    build:
+        description: Clears your inventory and activate building
+        permission: ls.build
+        usage: /build
+    addlsw:
+        description: add a warp to your selector
+        permission: ls.addlsw
+        usage: /addlsw <Name>
+    dellsw:
+        description: remove a warp from your selector
+        permission: ls.dellsw
+        usage: /dellsw <Name>
+        
+        
+permissions:
+    ls.day:
+        description: LobbySystem Day Perm
+        default: OP
+    ls.night:
+        description: LobbySystem Night Perm
+        default: OP
+    ls.getlobbyinv:
+        description: LobbySystem GetInv Perm
+        default: true
+    ls.build:
+        description: LobbySystem Build Perm
+        default: OP
+    ls.addlsw:
+        description: LobbySystem AddWarp Perm
+        default: OP
+    ls.dellsw:
+        description: LobbySystem DelWarp Perm
+        default: OP

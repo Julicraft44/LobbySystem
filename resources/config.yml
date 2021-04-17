@@ -1,0 +1,49 @@
+#Do not change this version
+#Only for development
+version: 1.0
+
+#Generell Config
+LobbyWorlds: []
+
+canLoseHunger: true
+canDropItem: true
+canPickupItem: true
+canBreakBlock: true
+canPlaceBlock: true
+canTakeDamage: true
+
+#Messages
+no-permission: §cYou don't have the permission to do that
+no-player: Please run this command In-game
+
+hide-player: §cPlayers hidden
+show-player: §aPlayers visible
+
+time-day: §2Time is now day
+time-night: §2Time is now night
+
+get-lobby-inv: §aThe lobby inv is back
+success-lobby-teleport: §aYou have been teleported
+
+empty-add-warp: Empty response
+empty-remove-warp: Empty response
+warp-exist: Warp already exist
+warp-not-exist: Warp not exist
+success-warp-add: Warp added
+success-warp-remove: Warp removed
+    
+#Inventory item names
+CompassName: §l§6Selector
+CompassContent: Click to teleport
+
+TorchNameHide: §l§cHidePlayer
+TorchNameShow: §l§aShowPlayers
+
+ChestName: §l§eGadgets
+ChestContent: Click to select
+EffectContent: Buy an Effect
+
+SkullName: §l§7Profile
+SkullContent: Your Profile
+
+BarrierName: §l§cComing Soon
