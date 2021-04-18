@@ -1,0 +1,10 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Julicraft44/LobbySystem
+build-by-default: true
+branches:
+- main
+projects:
+  LobbySystem:
+    path: ""
+    lint:
+        phpstan: false
+...
